@@ -1,9 +1,13 @@
 <h3 style="text-align: right"><%= @path %></h3>
-<ul>
+<ul style="list-style-type: none;">
   <% if archives.length > 0 %>
     <% for entry in archives %>
+      <% date = Date.parse(entry.date, false) %>
       <li>
-        <a href="<%= entry.path %>"><%= entry.title %></a>
+        <a href="<%= entry.path %>">
+          <span style="float: left; width: 130px"><%= "#{Date::MONTHNAMES[date.month]} #{date.year}" %></span>
+          <span><%= entry.title %></span>
+        </a>
       </li>
     <% end %>
   <% end %>

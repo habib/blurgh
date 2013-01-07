@@ -285,3 +285,7 @@ footer {
     color:#444;
   }
 }
+
+html {
+  border-top: 5px solid #39C;
+}
