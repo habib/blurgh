@@ -1,18 +1,38 @@
 <!doctype html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-    <title><%= title %></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <!-- <title>Habib's blargh</title> -->
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Habibullah Pagarkar</title>
   </head>
   <body>
-    <section>
-      <%= yield %> 
-    </section>
-    <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
-    </footer>
+    <div class="wrapper">
+      <header>
+        <h1>Habibullah Pagarkar</h1>
+        <p>software guy • foodie • مسافر</p><br/>
+        <p class="view"><a href="/about">about me</a></p>
+        <!-- <p class="view"><a href="/about">résumé</a></p> -->
+        <p class="view"><a href="/archives">archives</a></p>
+        <a href="mailto:habibpagarkar@gmail.com">habibpagarkar@gmail.com</a>
+        <a href="http://github.com/habib">open-source</a> <br/>
+        <a href="http://twitter.com/mhabibp">@mhabibp</a></br>
+      </header>
+      <section>
+        <%= yield %>
+      </section>
+      <footer>
+        <p><small>Powered
+        by <a href="http://cloudhead.io/toto">toto</a>. Theme by <a href="https://github.com/orderedlist">orderedlist</a>.</small></p>
+      </footer>
+    </div>
   </body>
 </html>
-
