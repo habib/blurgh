@@ -1,0 +1,7 @@
+---
+title: Flat for Rant
+date: 2009/01/03
+
+A flat for rant.
+
+![Flat for rant](/images/flat-for-rant.jpg)
