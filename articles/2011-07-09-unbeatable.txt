@@ -1,0 +1,7 @@
+---
+title: Unbeatable
+date: 2011/07/09
+
+The price is unbeatable but the cooker sadly isn't.
+
+![Unbeatable](/images/unbeatable.jpg)
